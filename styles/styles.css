@@ -1,3 +1,10 @@
+:root{
+  --heading-background-color: #f06;
+  --border: 1px solid rgb(0 0 0 / 0.2) ; 
+  --box-shadow: 0 0 30px gray;
+  --color-dark-blue: darkblue;
+}
+
 main{
   max-width: 840px;
 }
@@ -5,15 +12,15 @@ main{
 main img {
   width: 150px;
   height: auto;
-  border: 1px solid black;
+  border: var(--border);
   padding: 2px;
-  box-shadow: 0 0 30px gray;
+  box-shadow: var(--box-shadow);
 }
 
 aside{
   width: 20rem;
   margin: 1rem;
-  border: 1px solid rgb(0 0 0 / 0.2) ;
+  border: var(--border);
   padding: 1rem;
   background-color: #eee;
   color: #333;
@@ -26,7 +33,7 @@ aside img {
 }
 
 nav{
-  background-color: darkblue;
+  background-color: var(--color-dark-blue);
   padding: 10px;
 }
 
@@ -37,15 +44,15 @@ nav a {
 }
 
 h1{
-  color: darkblue;
+  color: var(--color-dark-blue);
 }
 
 img {
   width: 150px;
   height: auto;
-  border: 1px solid black;
+  border: var(--border);
   padding: 2px;
-  box-shadow: 0 0 30px gray;
+  box-shadow: var(--box-shadow);
 }
 
 p {
