@@ -1,6 +1,5 @@
 :root{
   --primary-color: #055a05;
-  --secondary-color: #f4a261;
   --accent1-color: #264653;
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
@@ -49,9 +48,9 @@ nav, p, section, article {
 
 article {
   display: flex;
-  flex-direction: column; /* Coloca p acima e img abaixo */
-  align-items: flex-start;    /* Centraliza horizontalmente */
-  text-align: left;     /* Centraliza o texto */
+  flex-direction: column; 
+  align-items: flex-start;
+  text-align: left;     
   margin: 2rem auto;
   max-width: 800px;
   
