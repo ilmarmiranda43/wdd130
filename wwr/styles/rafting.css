@@ -150,16 +150,6 @@ article p {
   gap: 0.5rem;
 }
 
-.hero article {
-  position: absolute;           
-  bottom: 20px;                 
-  left: 20px;
-  max-width: 300px;             
-  background: rgba(255,255,255,0.8);
-  padding: 12px;
-  
-}
-
 .hero article img {
   border-radius: 6px;
   float: right;
