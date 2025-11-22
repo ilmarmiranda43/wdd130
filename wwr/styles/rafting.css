@@ -162,6 +162,9 @@ article p {
 
 .hero article img {
   border-radius: 6px;
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 /* ------------------- HISTORY ------------------- */
