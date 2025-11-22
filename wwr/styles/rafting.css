@@ -23,7 +23,7 @@ header {
   justify-content: space-between;
   padding: 1rem 2rem;
   background-color: #023047; /* azul escuro */
-  color: #fff;
+  color: #ffffff;
 }
 
 header .logo {
@@ -39,7 +39,7 @@ header .navigation {
 }
 
 header .navigation a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
 }
