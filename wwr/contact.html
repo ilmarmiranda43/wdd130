@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Water Rafting</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+  <meta name="description" content="Our rafting company will bring lots of fun and adventure to everyone.">
+  <meta name="author" content="Ilmar Miranda">
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="images/z-splash.png" alt="Logo WWR">
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <main>
+
+      <!-- Título e contato em cima -->
+      <section class="contact-header">
+        <h1>Water Rafting Company</h1>
+        <p>
+          Complexo Pico do Urubú<br>
+          Mogi das Cruzes, São Paulo<br>
+          +55 11 97856-4568<br>
+          info@waterrqafiting.com
+        </p>
+      </section>
+
+      <!-- Linha com MAPA (esquerda) + FORM (direita) -->
+      <section class="contact-layout">
+
+        <!-- MAPA -->
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d117070.87636190331!2d-46.30943576520466!3d-23.515776259976608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spesqueiro%20pico%20do%20urubu!5e0!3m2!1spt-BR!2sbr!4v1764681521130!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <!-- FORMULÁRIO -->
+        <form class="contact-form">
+
+          <!-- Name -->
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Placeholder">
+          </div>
+
+          <!-- Email -->
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Placeholder">
+          </div>
+
+          <!-- Message Purpose (radios) -->
+          <div class="form-row">
+            <span class="field-label">Message Purpose</span>
+            <div class="options-group">
+              <label>
+                <input type="radio" name="purpose" value="general">
+                General Inquiry
+              </label>
+              <label>
+                <input type="radio" name="purpose" value="reservation">
+                Reservation Question
+              </label>
+              <label>
+                <input type="radio" name="purpose" value="suggestion">
+                Website Suggestion
+              </label>
+            </div>
+          </div>
+
+          <!-- Message -->
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Type here."></textarea>
+          </div>
+
+          <!-- Checkbox: linha inteira -->
+          <div class="form-row form-row-full">
+            <label class="checkbox-label">
+              <input type="checkbox">
+              Please Subscribe me to the monthly newsletter
+            </label>
+          </div>
+
+          <!-- Botão: linha inteira -->
+          <div class="form-row form-row-full">
+            <button type="submit" class="btn-submit">Get in Touch!</button>
+          </div>
+
+        </form>
+
+      </section>
+
+    </main>
+
+
+    <!-- SERVE YOU -->
+    <section class="team-section">
+      <h2 class="team-title">We Are Here to Serve You</h2>
+
+      <div class="team-gallery">
+        <figure class="team-card">
+          <img src="images/sarah_miller.png" alt="Profile picture of Sarah Miller">
+          <figcaption>Sarah Miller – Lead River Guide</figcaption>
+        </figure>
+
+        <figure class="team-card">
+          <img src="images/carlos_santos.png" alt="Profile picture of Carlos Santos">
+          <figcaption>Carlos Santos – Safety Specialist</figcaption>
+        </figure>
+
+        <figure class="team-card">
+          <img src="images/emma_johnson.png" alt="Profile picture of Emma Johnson">
+          <figcaption>Emma Johnson – Guest Services</figcaption>
+        </figure>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 &#10070; Water Rafting &#10070; Ilmar Miranda</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com">
+        <img src="images/facebook.jpg" alt="Facebook Icon">
+      </a>
+      <a href="https://linkedin.com">
+        <img src="images/linkedin.jpg" alt="LinkedIn Icon">
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.jpg" alt="Instagram Icon">
+      </a>
+    </nav>
+  </footer>
+</body>
+
+</html>

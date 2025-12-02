@@ -270,3 +270,140 @@ footer .socialmedia img {
   }
 }
 
+/* Título e contato centralizados */
+.contact-header {
+  text-align: center;
+  margin: 2rem auto 1.5rem;
+  font-family: Arial, sans-serif;
+}
+
+.contact-header h1 {
+  color: #004400;         /* verde como no seu exemplo */
+  margin-bottom: 0.3rem;
+}
+
+/* Container das duas colunas (mapa + form) */
+.contact-layout {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+}
+
+/* MAPA */
+.contact-map {
+  flex: 1;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 320px;   /* ajuste se quiser maior/menor */
+  border: 0;
+}
+
+/* FORMULÁRIO */
+/* formulário em 2 colunas internas */
+.contact-form {
+  font-family: Arial, sans-serif;
+}
+
+/* cada linha do formulário */
+.contact-form .form-row {
+  display: grid;
+  grid-template-columns: 130px 1fr;  /* esquerda: rótulo, direita: campo */
+  column-gap: 0.75rem;
+  align-items: flex-start;
+  margin-bottom: 0.6rem;
+}
+
+/* rótulos da coluna esquerda */
+.contact-form .form-row > label,
+.contact-form .field-label {
+  font-size: 0.9rem;
+  padding-top: 0.3rem;
+}
+
+/* inputs e textarea ocupam toda a coluna da direita */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font: inherit;
+}
+
+/* grupo de radios, um embaixo do outro */
+.options-group label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.4;
+}
+
+/* linhas que devem ocupar a largura inteira (checkbox + botão) */
+.form-row-full {
+  grid-template-columns: 1fr;
+}
+
+/* checkbox alinhado com o texto */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+  width: 350px;
+}
+
+/* botão semelhante ao exemplo */
+.btn-submit {
+  width: 350px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+/* container com borda em volta, como no exemplo */
+.team-section {
+  border: 1px solid #999;
+  padding: 1.5rem 1rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  background-color: #f5f5f5;
+}
+
+/* título centralizado e em negrito */
+.team-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+/* galeria com 3 perfis alinhados no centro */
+.team-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;              /* espaço entre os perfis */
+}
+
+/* cada card de funcionário */
+.team-card {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* imagem quadrada tipo “placeholder” */
+.team-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;      /* recorta a imagem para caber no quadrado */
+  background-color: #ddd; /* cinza, caso a imagem não carregue */
+  display: block;
+  margin: 0 auto 0.5rem;
+}
+
